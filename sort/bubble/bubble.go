@@ -1,5 +1,6 @@
 package bubble
 
+// bubbleSort sorts in 0(n^2)
 func bubbleSort(args []int) []int {
 	list := make([]int, len(args))
 	copy(list, args)
